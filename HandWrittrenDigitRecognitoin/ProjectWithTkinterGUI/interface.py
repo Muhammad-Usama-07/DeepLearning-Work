@@ -19,6 +19,9 @@ window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
 menubar = Menu(window)
 
+Label( window , text = " Handwritten Digit Recognition " , bg = "#0065AE" , relief = "solid" ,
+                height = 2 , font = "Times%New%Roman 18 bold italic" , anchor=CENTER).pack(side = TOP,fill=BOTH)
+
 canvas = Canvas(window, width=300,height=300, background='black')
 canvas.place(relx=0.2, rely=0.4,anchor=CENTER)
 
@@ -26,11 +29,11 @@ canvas.bind('<B1-Motion>', draw)
 
 pen_size = 20
 
-predict_button = Button(window, text = "Predict" , bg = '#09436D' , width = 8,
+predict_button = Button(window, text = "Predict" , bg = '#0065AE' , width = 8,
                                font = ("Times%New%Roman" , 15 , "bold") ,
                                relief = "ridge" )
 predict_button.place(relx=0.1, rely=0.7,anchor=CENTER)
-clear_button = Button(window, text='Clear', bg = '#09436D' , width = 8,
+clear_button = Button(window, text='Clear', bg = '#0065AE' , width = 8,
                                font = ("Times%New%Roman" , 15 , "bold") ,
                                relief = "ridge", command= clear)
 clear_button.place(relx=0.3, rely=0.7,anchor=CENTER)
