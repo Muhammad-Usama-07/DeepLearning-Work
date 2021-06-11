@@ -18,7 +18,17 @@ def clear():
 
 
 def predict():
-    pass
+    filename = 'image.png'
+    x = window.winfo_rootx() + canvas.winfo_x()
+    y = window.winfo_rooty() + canvas.winfo_y()
+
+    x1 = x + canvas.winfo_width()
+    y1 = y + canvas.winfo_height()
+
+    # Image taken
+    image = ImageGrab.grab().crop((x, y, x1, y1))
+    new_image = image.resize((28, 28))
+    new_image.save(filename)
 
 window.title('Paint')
 window.configure(bg='#0C85DC')
