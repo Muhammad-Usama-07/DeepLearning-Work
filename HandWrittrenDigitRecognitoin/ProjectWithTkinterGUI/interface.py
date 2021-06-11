@@ -36,6 +36,11 @@ def predict():
     img = load_img(str(filename), color_mode="grayscale", target_size=(28, 28))
     img = img_to_array(img)
 
+    img = img.reshape(1, 784)  # reshaping image as model trained.
+    # prepare pixel data
+    img = img.astype('float32')
+    img = img / 255.0
+
 window.title('Paint')
 window.configure(bg='#0C85DC')
 window.geometry("900x600+300+50")
