@@ -18,11 +18,11 @@ def draw(event):
     canvas.create_oval(x1, y1, x2, y2, fill='white', outline='white', width=pen_size)
 
 
-def clear():
+def clear(strr):
     canvas.delete("all")
+    display_result.config(text=strr)
 
-
-def predict():
+def predict(strr):
     filename = 'image.png'
     x = window.winfo_rootx() + canvas.winfo_x()
     y = window.winfo_rooty() + canvas.winfo_y()
@@ -46,16 +46,18 @@ def predict():
     time.sleep(2)                               # Some time to predict
     display_result.config(text=strr + str(result[0])) # Display result
     os.remove(filename)                         #removing image after prediction
-    
-window.title('Paint')
+
+window.title('Handwritten Digit Recognition')
 window.configure(bg='#0C85DC')
 window.geometry("900x600+300+50")
 window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
-menubar = Menu(window)
 
 Label(window, text=" Handwritten Digit Recognition ", bg="#0065AE", relief="solid",
       height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER).pack(side=TOP, fill=BOTH)
+
+Label(window, text="Draw Digit", bg="#0C85DC",
+      height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER).place(relx=0.5, rely=0.2, anchor=CENTER)
 
 canvas = Canvas(window, width=300, height=300, background='black')
 canvas.place(relx=0.5, rely=0.5, anchor=CENTER)
@@ -64,13 +66,20 @@ canvas.bind('<B1-Motion>', draw)
 
 pen_size = 20
 
+
+result_value = ''
+display_result = Label(window, text='the number is: '+result_value, bg="#0065AE", relief="solid",width = 15,
+          height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER)
+display_result.pack(side=BOTTOM)
+
 predict_button = Button(window, text="Predict", bg='#0065AE', width=8,
                         font=("Times%New%Roman", 15, "bold"),
-                        relief="ridge", command = predict)
+                        relief="ridge", command=lambda:predict('the number is: '))
 predict_button.place(relx=0.4, rely=0.8, anchor=CENTER)
 clear_button = Button(window, text='Clear', bg='#0065AE', width=8,
                       font=("Times%New%Roman", 15, "bold"),
-                      relief="ridge", command=clear)
+                      relief="ridge", command=lambda:clear('the number is: '))
 clear_button.place(relx=0.6, rely=0.8, anchor=CENTER)
+
 
 window.mainloop()
