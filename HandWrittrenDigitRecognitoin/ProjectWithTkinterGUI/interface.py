@@ -1,10 +1,13 @@
+import time
 from tkinter import *
 from tkinter import colorchooser, filedialog, messagebox
 from tkinter.filedialog import asksaveasfilename
 from tensorflow.keras import models
 from tensorflow.keras.preprocessing.image import img_to_array
 from keras.preprocessing.image import load_img
+from functools import partial
 import PIL.ImageGrab as ImageGrab
+import os
 
 window = Tk()
 
@@ -32,18 +35,17 @@ def predict():
     new_image = image.resize((28, 28))
     new_image.save(filename)
 
-    # converting image to array
-    img = load_img(str(filename), color_mode="grayscale", target_size=(28, 28))
-    img = img_to_array(img)
 
+    img = load_img(str(filename), color_mode="grayscale", target_size=(28, 28)) # Loading Image
+    img = img_to_array(img) # converting image to array
     img = img.reshape(1, 784)  # reshaping image as model trained.
-    # prepare pixel data
     img = img.astype('float32')
-    img = img / 255.0
-    # Loading Trained Model
-    model = models.load_model('TrainedModel.h5')
-    # Predicting image
-    result = model.predict_classes(img)
+    img = img / 255.0    # prepare pixel data
+    model = models.load_model('TrainedModel.h5')# Load Trained Model
+    result = model.predict_classes(img)         # Predicting image
+    time.sleep(2)                               # Some time to predict
+    display_result.config(text=strr + str(result[0])) # Display result
+    os.remove(filename)                         #removing image after prediction
     
 window.title('Paint')
 window.configure(bg='#0C85DC')
