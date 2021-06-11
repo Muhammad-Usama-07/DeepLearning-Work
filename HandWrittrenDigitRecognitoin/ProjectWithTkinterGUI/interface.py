@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter import colorchooser, filedialog, messagebox
 from tkinter.filedialog import asksaveasfilename
-
+from tensorflow.keras import models
+from tensorflow.keras.preprocessing.image import img_to_array
+from keras.preprocessing.image import load_img
 import PIL.ImageGrab as ImageGrab
 
 window = Tk()
@@ -29,6 +31,10 @@ def predict():
     image = ImageGrab.grab().crop((x, y, x1, y1))
     new_image = image.resize((28, 28))
     new_image.save(filename)
+
+    # converting image to array
+    img = load_img(str(filename), color_mode="grayscale", target_size=(28, 28))
+    img = img_to_array(img)
 
 window.title('Paint')
 window.configure(bg='#0C85DC')
