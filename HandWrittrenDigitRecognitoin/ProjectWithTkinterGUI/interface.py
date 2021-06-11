@@ -40,6 +40,7 @@ def predict():
     # prepare pixel data
     img = img.astype('float32')
     img = img / 255.0
+    # Loading Trained Model
 
 window.title('Paint')
 window.configure(bg='#0C85DC')
