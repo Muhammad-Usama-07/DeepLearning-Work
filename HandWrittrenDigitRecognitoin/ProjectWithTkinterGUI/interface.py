@@ -42,6 +42,8 @@ def predict():
     img = img / 255.0
     # Loading Trained Model
     model = models.load_model('TrainedModel.h5')
+    # Predicting image
+    result = model.predict_classes(img)
     
 window.title('Paint')
 window.configure(bg='#0C85DC')
