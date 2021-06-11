@@ -52,6 +52,8 @@ window.configure(bg='#0C85DC')
 window.geometry("900x600+300+50")
 window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
+photo = PhotoImage(file = "MyLogo.png")
+window.iconphoto(False, photo)
 
 Label(window, text=" Handwritten Digit Recognition ", bg="#0065AE", relief="solid",
       height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER).pack(side=TOP, fill=BOTH)
