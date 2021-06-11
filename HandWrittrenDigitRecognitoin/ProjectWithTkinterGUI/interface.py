@@ -41,7 +41,8 @@ def predict():
     img = img.astype('float32')
     img = img / 255.0
     # Loading Trained Model
-
+    model = models.load_model('TrainedModel.h5')
+    
 window.title('Paint')
 window.configure(bg='#0C85DC')
 window.geometry("900x600+300+50")
