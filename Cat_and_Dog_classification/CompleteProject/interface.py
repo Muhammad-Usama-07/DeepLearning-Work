@@ -18,7 +18,11 @@ window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
 
 lb1 = tkinter.Label(text="Cat and Dog Classification", bg="#DA902D", relief="solid",
-      height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER)
+      height=1, font="Times%New%Roman 18 bold italic", anchor=CENTER)
 lb1.pack(side=TOP, fill=BOTH)
+
+lb2 = tkinter.Label(text="Give me image", bg="#DA902D", relief="solid",
+      height=2, width = 15,font="Times%New%Roman 18 bold italic", anchor=CENTER)
+lb2.place(relx=0.5, rely=0.2, anchor=CENTER)
 
 window.mainloop()
