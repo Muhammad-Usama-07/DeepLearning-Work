@@ -10,11 +10,16 @@ import os
 
 
 window = Tk()
+image_path = 'aaa'
 
 def upload():
-      pass
+    global image_path
+
+
 def predict():
       pass
+
+
 
 window.title('Cat and Dog Classification')
 window.configure(bg='#ED9850')
@@ -33,9 +38,9 @@ predict_button = tkinter.Button(text="Predict", bg='#DA902D', width=7,
                         font=("Times%New%Roman", 15, "bold"),
                         relief="solid", command = predict)
 predict_button.place(relx=0.4, rely=0.8, anchor=CENTER)
-clear_button = tkinter.Button(text='Upload', bg='#DA902D', width=7,
+upload_button = tkinter.Button(text='Upload', bg='#DA902D', width=7,
                       font=("Times%New%Roman", 15, "bold"),
-                      relief="solid", command = upload)
-clear_button.place(relx=0.6, rely=0.8, anchor=CENTER)
+                      relief="solid",command=upload)
+upload_button.place(relx=0.6, rely=0.8, anchor=CENTER)
 
 window.mainloop()
