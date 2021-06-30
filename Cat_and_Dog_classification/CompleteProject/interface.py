@@ -13,7 +13,7 @@ window = Tk()
 
 window.title('Cat and Dog Classification')
 window.configure(bg='#ED9850')
-window.geometry("900x600+300+50")
+window.geometry("500x600+300+50")
 window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
 
@@ -21,8 +21,9 @@ lb1 = tkinter.Label(text="Cat and Dog Classification", bg="#DA902D", relief="sol
       height=1, font="Times%New%Roman 18 bold italic", anchor=CENTER)
 lb1.pack(side=TOP, fill=BOTH)
 
-lb2 = tkinter.Label(text="Give me image", bg="#DA902D", relief="solid",
-      height=2, width = 15,font="Times%New%Roman 18 bold italic", anchor=CENTER)
+lb2 = tkinter.Label(text="Give me image", bg="#ED9850", font="Times%New%Roman 20 bold italic", anchor=CENTER)
 lb2.place(relx=0.5, rely=0.2, anchor=CENTER)
 
+canvas = Canvas(window, width=150, height=150, background='black')
+canvas.place(relx=0.5, rely=0.4, anchor=CENTER)
 window.mainloop()
