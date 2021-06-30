@@ -11,6 +11,11 @@ import os
 
 window = Tk()
 
+def upload():
+      pass
+def predict():
+      pass
+
 window.title('Cat and Dog Classification')
 window.configure(bg='#ED9850')
 window.geometry("500x600+300+50")
@@ -26,11 +31,11 @@ lb2.place(relx=0.5, rely=0.2, anchor=CENTER)
 
 predict_button = tkinter.Button(text="Predict", bg='#DA902D', width=7,
                         font=("Times%New%Roman", 15, "bold"),
-                        relief="solid")
+                        relief="solid", command = predict)
 predict_button.place(relx=0.4, rely=0.8, anchor=CENTER)
 clear_button = tkinter.Button(text='Upload', bg='#DA902D', width=7,
                       font=("Times%New%Roman", 15, "bold"),
-                      relief="solid")
+                      relief="solid", command = upload)
 clear_button.place(relx=0.6, rely=0.8, anchor=CENTER)
 
 window.mainloop()
