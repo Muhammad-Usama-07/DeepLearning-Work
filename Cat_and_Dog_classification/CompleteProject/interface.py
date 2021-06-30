@@ -7,6 +7,10 @@ from tkinter import colorchooser, filedialog, messagebox
 from tkinter import filedialog as fd
 import PIL.ImageGrab as ImageGrab
 import os
+#after
+from tensorflow.keras import models
+from tensorflow.keras.preprocessing.image import img_to_array
+from keras.preprocessing.image import load_img
 
 window = Tk()
 image_path = 'aaa'
@@ -31,6 +35,13 @@ def upload(strr):
 
 def predict(pat,strr):
     print(resized)
+    #After
+    img = load_img(str(resized), color_mode="grayscale", target_size=(150, 150))  # Loading Image
+    img = img.astype('float32')
+    img = img / 255.0  # prepare pixel data
+    model = models.load_model('cats_and_dogs_small_1.h5')  # Load Trained Model
+    result = model.predict_classes(img)  # Predicting image
+    time.sleep(2)
     display_result.config(text=strr + str(result[0]))
 
 
@@ -48,7 +59,7 @@ lb2 = tkinter.Label(text="Give me image", bg="#ED9850", font="Times%New%Roman 20
 lb2.place(relx=0.5, rely=0.2, anchor=CENTER)
 
 result_value = ''
-display_result = Label(window, text='the number is: '+result_value, bg="#0065AE", relief="solid",width = 15,
+display_result = tkinter.Label(text="Prediction here: "+result_value, bg="#DA902D", relief="solid",width = 15,
           height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER)
 display_result.pack(side=BOTTOM)
 
@@ -58,7 +69,7 @@ predict_button = tkinter.Button(text="Predict", bg='#DA902D', width=7,
 predict_button.place(relx=0.4, rely=0.6, anchor=CENTER)
 upload_button = tkinter.Button(text='Upload', bg='#DA902D', width=7,
                                font=("Times%New%Roman", 15, "bold"),
-                               relief="solid", command=lambda:upload("it's a: "))
+                               relief="solid", command=lambda:upload("Prediction here: "))
 upload_button.place(relx=0.6, rely=0.6, anchor=CENTER)
 
 window.mainloop()
