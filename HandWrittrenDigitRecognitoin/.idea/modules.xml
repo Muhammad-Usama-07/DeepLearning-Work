@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DeepLearning-Work.iml" filepath="$PROJECT_DIR$/.idea/DeepLearning-Work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HandWrittrenDigitRecognitoin.iml" filepath="$PROJECT_DIR$/.idea/HandWrittrenDigitRecognitoin.iml" />
     </modules>
   </component>
 </project>
