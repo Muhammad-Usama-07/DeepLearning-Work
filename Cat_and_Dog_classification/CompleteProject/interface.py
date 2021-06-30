@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 from tkinter.ttk import *
 import time
 from tkinter import colorchooser, filedialog, messagebox
-from tkinter.filedialog import asksaveasfilename
+from tkinter import filedialog as fd
 import PIL.ImageGrab as ImageGrab
 import os
 
@@ -14,10 +14,10 @@ image_path = 'aaa'
 
 def upload():
     global image_path
-
-
+    filename = fd.askopenfilename()
+    image_path = filename
 def predict():
-      pass
+      print(image_path)
 
 
 
