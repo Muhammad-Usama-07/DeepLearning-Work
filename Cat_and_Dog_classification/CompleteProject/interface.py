@@ -45,9 +45,10 @@ def predict(pat,strr):
     display_result.config(text=strr + str(result[0]))
 
 
+
 window.title('Cat and Dog Classification')
 window.configure(bg='#ED9850')
-window.geometry("500x400+500+100")
+window.geometry("500x500+500+100")
 window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
 
@@ -59,9 +60,9 @@ lb2 = tkinter.Label(text="Give me image", bg="#ED9850", font="Times%New%Roman 20
 lb2.place(relx=0.5, rely=0.2, anchor=CENTER)
 
 result_value = ''
-display_result = tkinter.Label(text="Prediction here: "+result_value, bg="#DA902D", relief="solid",width = 15,
+display_result = tkinter.Label(text="Prediction here: "+result_value, bg="#DA902D", relief="solid"  ,
           height=2, font="Times%New%Roman 18 bold italic", anchor=CENTER)
-display_result.pack(side=BOTTOM)
+display_result.pack(side=BOTTOM,fill=X)
 
 predict_button = tkinter.Button(text="Predict", bg='#DA902D', width=7,
                                 font=("Times%New%Roman", 15, "bold"),
