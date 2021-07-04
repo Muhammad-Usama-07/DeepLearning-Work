@@ -51,6 +51,15 @@ def predict(pat,strr):
         result = model.predict(img)
         time.sleep(1)  # Some time to predict
 
+        # Prediction Condition
+        if (result[0] == [0.]):
+            display_result.config(text=strr + 'Cat')
+            print("it's a Cat")
+        elif (result[0] == [[1.]]):
+            display_result.config(text=strr + 'Dog')
+            print("it's a Dog")
+        else:
+            print('other')
 
 window.title('Cat and Dog Classification')
 window.configure(bg='#ED9850')
