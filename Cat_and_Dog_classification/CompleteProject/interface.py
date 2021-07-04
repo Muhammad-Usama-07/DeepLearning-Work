@@ -13,7 +13,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from keras.preprocessing.image import load_img
 
 window = Tk()
-image_path = 'aaa'
+image_path = 'nothing'
 
 
 def upload(strr):
@@ -34,15 +34,10 @@ def upload(strr):
 
 
 def predict(pat,strr):
-    print(resized)
-    #After
-    img = load_img(str(resized), color_mode="grayscale", target_size=(150, 150))  # Loading Image
-    img = img.astype('float32')
-    img = img / 255.0  # prepare pixel data
-    model = models.load_model('cats_and_dogs_small_1.h5')  # Load Trained Model
-    result = model.predict_classes(img)  # Predicting image
-    time.sleep(2)
-    display_result.config(text=strr + str(result[0]))
+    if (pat == 'nothing'):
+        display_result.config(text='Please Upload image...')
+    else:
+        print('something')
 
 
 
