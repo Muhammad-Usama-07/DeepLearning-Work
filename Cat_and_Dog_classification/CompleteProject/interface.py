@@ -47,7 +47,7 @@ def predict(pat,strr):
 
 window.title('Cat and Dog Classification')
 window.configure(bg='#ED9850')
-window.geometry("500x500+500+100")
+window.geometry("500x400+500+100")
 window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
 
