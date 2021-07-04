@@ -45,7 +45,11 @@ def predict(pat,strr):
         img = img.reshape(1, 150, 150, 3)
         # center pixel data
         img = img.astype('float32')
-
+        # Load Trained Model
+        model = models.load_model('cats_and_dogs_small_1.h5')
+        # Predicting image
+        result = model.predict(img)
+        time.sleep(1)  # Some time to predict
 
 
 window.title('Cat and Dog Classification')
