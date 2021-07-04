@@ -37,7 +37,14 @@ def predict(pat,strr):
     if (pat == 'nothing'):
         display_result.config(text='Please Upload image...')
     else:
-        print('something')
+        # Prepering image data
+        img = load_img(pat, target_size=(150, 150))
+        # convert to array
+        img = img_to_array(img)
+        # reshape into a single sample with 3 channels
+        img = img.reshape(1, 150, 150, 3)
+        # center pixel data
+        img = img.astype('float32')
 
 
 
