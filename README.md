@@ -31,6 +31,11 @@ This Repository contain all my work associated to Machine Learning field.
     **Libraries:** Python, Pandas, Numpy, Tensorflow
         
  - [Rock and Mine Detection](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Rock_and_Mine_prediction)
+ - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of identifying the Rock or Mine.
+    
+    **Model:** ANN
+
+    **Libraries:** Python, Pandas, Numpy, Tensorflow
  - [House Price Prediction](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HousePricePrediction)
  - [Fashion Items Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/FashionItemsRecognition)
  - [Movie Reviews Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/ClassifyingMovieReviews)
