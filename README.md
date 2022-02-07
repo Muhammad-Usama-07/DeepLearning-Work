@@ -1,4 +1,4 @@
-# Welcome to My DeepLearning Home
+# Welcome to My DeepLearning Repo
 
 This Repository contain all my work associated to Machine Learning field.
 ## Work
@@ -66,4 +66,11 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
  - [Newswires Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Classifying_newswires)
+ - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the type of news.
+    
+    **Model:** ANN
+    
+    **Dataset:** Reuters
+    
+    **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
 
