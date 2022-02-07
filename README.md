@@ -11,7 +11,7 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Model:** Conv2d
 
-    **Libraries:** Python, Pandas, Numpy, Tensorflow
+    **Libraries:** Tensorflow, Python, Pandas, Numpy 
         
     **GUI:** Tkinter
  - [HandWritten Digit Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HandWrittrenDigitRecognitoin)
@@ -20,7 +20,7 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Model:** ANN
 
-    **Libraries:** Python, Pandas, Numpy, Tensorflow
+    **Libraries:** Tensorflow, Python, Pandas, Numpy 
         
     **GUI:** Tkinter
  - [Iris Plant Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/iris_plants_Classify)
@@ -28,15 +28,20 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Model:** ANN
 
-    **Libraries:** Python, Pandas, Numpy, Tensorflow
+    **Libraries:** Tensorflow, Python, Pandas, Numpy
         
  - [Rock and Mine Detection](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Rock_and_Mine_prediction)
  - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of identifying the Rock or Mine.
     
     **Model:** ANN
 
-    **Libraries:** Python, Pandas, Numpy, Tensorflow
+    **Libraries:** Tensorflow, Python, Pandas, Numpy
  - [House Price Prediction](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HousePricePrediction)
+ - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of predict the house price.
+    
+    **Model:** ANN
+
+    **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
  - [Fashion Items Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/FashionItemsRecognition)
  - [Movie Reviews Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/ClassifyingMovieReviews)
  - [Newswires Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Classifying_newswires)
