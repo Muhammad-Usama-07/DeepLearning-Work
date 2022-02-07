@@ -3,7 +3,8 @@
 This Repository contain all my work associated to Machine Learning field.
 ## Work
 
- - Advanced Deep learning Work 
+ - [Advanced Deep Learning Work](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/Advanced%20Deep%20Learning) 
+
 ## Projects 
 
  - [Cat and Dog Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Cat_and_Dog_classification)
