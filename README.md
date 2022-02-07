@@ -15,6 +15,14 @@ This Repository contain all my work associated to Machine Learning field.
         
     **GUI:** Tkinter
  - [HandWritten Digit Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HandWrittrenDigitRecognitoin)
+ 
+  - A Complete GUI Based Project which predict the hand written digit drawn from the canvas that contain a Machine Learning model at backend which is capable of identifying the digit.
+    
+    **Model:** Conv2d
+
+    **Libraries:** Python, Pandas, Numpy, Tensorflow
+        
+    **GUI:** Tkinter
  - [Iris Plant Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/iris_plants_Classify)
  - [Rock and Mine Detection](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Rock_and_Mine_prediction)
  - [House Price Prediction](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HousePricePrediction)
