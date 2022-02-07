@@ -20,6 +20,8 @@ This Repository contain all my work associated to Machine Learning field.
   - A Complete GUI Based Project which predict the hand written digit drawn from the canvas that contain a Machine Learning model at backend which is capable of identifying the digit.
     
     **Model:** ANN
+    
+    **Dataset:** MNIST
 
     **Libraries:** Tensorflow, Python, Pandas, Numpy 
         
