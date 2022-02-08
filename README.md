@@ -77,7 +77,7 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
 
-## Refrences 
+## References 
 Book: Deep Learning With Python by François Chollet
 
 Datasets: kaggle.com
