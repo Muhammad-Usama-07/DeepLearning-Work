@@ -1,11 +1,11 @@
 # Welcome to My DeepLearning Repo
 
 This Repository contain all my work associated to Machine Learning field.
-## Work
+# Work
 
-## - [Advanced Deep Learning Work](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/Advanced%20Deep%20Learning) 
+## [Advanced Deep Learning Work](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/Advanced%20Deep%20Learning) 
 
-## Projects 
+# Projects 
 
  - [Cat and Dog Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Cat_and_Dog_classification)
   - A Complete GUI Based Project that contain a Machine Learning model which is capable of identifying cat or dog.
