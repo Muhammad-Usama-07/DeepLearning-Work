@@ -33,14 +33,14 @@ This Repository contain all my work associated to Machine Learning field.
 
     **Libraries:** Tensorflow, Python, Pandas, Numpy
         
- - [Rock and Mine Detection](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Rock_and_Mine_prediction)
+### [Rock and Mine Detection](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Rock_and_Mine_prediction)
  - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of identifying the Rock or Mine.
     
     **Model:** ANN
 
     **Libraries:** Tensorflow, Python, Pandas, Numpy
     
- - [House Price Prediction](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HousePricePrediction)
+### [House Price Prediction](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HousePricePrediction)
  
  - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable to predict the house price.
     
@@ -50,7 +50,7 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
     
- - [Fashion Items Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/FashionItemsRecognition)
+### [Fashion Items Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/FashionItemsRecognition)
 
  - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the fasion items.
     
@@ -60,7 +60,7 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
     
- - [Movie Reviews Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/ClassifyingMovieReviews)
+### [Movie Reviews Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/ClassifyingMovieReviews)
  - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the type of review either in positive or negative.
     
     **Model:** ANN
@@ -68,7 +68,7 @@ This Repository contain all my work associated to Machine Learning field.
     **Dataset:** IMDB
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
- - [Newswires Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Classifying_newswires)
+### [Newswires Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Classifying_newswires)
  - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the type of news.
     
     **Model:** ANN
