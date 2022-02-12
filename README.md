@@ -15,7 +15,7 @@ This Repository contain all my work associated to Machine Learning field.
     **Libraries:** Tensorflow, Python, Pandas, Numpy 
         
     **GUI:** Tkinter
- - [HandWritten Digit Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HandWrittrenDigitRecognitoin)
+### [HandWritten Digit Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/HandWrittrenDigitRecognitoin)
  
   - A Complete GUI Based Project which predict the hand written digit drawn from the canvas that contain a Machine Learning model at backend which is capable of identifying the digit.
     
