@@ -26,7 +26,7 @@ This Repository contain all my work associated to Machine Learning field.
     **Libraries:** Tensorflow, Python, Pandas, Numpy 
         
     **GUI:** Tkinter
- - [Iris Plant Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/iris_plants_Classify)
+### [Iris Plant Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/iris_plants_Classify)
  - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of identifying the type of Flower.
     
     **Model:** ANN
