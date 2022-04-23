@@ -78,6 +78,9 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
     
+    ![image](https://user-images.githubusercontent.com/51862131/164941974-a75a94e3-06ac-4b04-9386-fa537c7dc3e9.png)
+    
+    
 ### [Movie Reviews Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/ClassifyingMovieReviews)
  - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the type of review either in positive or negative.
     
