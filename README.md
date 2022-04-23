@@ -64,6 +64,10 @@ This Repository contain all my work associated to Machine Learning field.
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
     
+    ![image](https://user-images.githubusercontent.com/51862131/164912756-b608d36e-9cdc-4234-92e6-bfca047357b6.png)
+
+    
+    
 ### [Fashion Items Recognition](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/FashionItemsRecognition)
 
  - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the fasion items.
