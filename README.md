@@ -34,12 +34,15 @@ This Repository contain all my work associated to Machine Learning field.
     ![image](https://user-images.githubusercontent.com/51862131/164911589-223e6953-e173-4a8e-9870-20384b977306.png)    
     
     
-### [Iris Plant Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/iris_plants_Classify)
+### [Iris Plant Classification using Sepal vs Petal](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/iris_plants_Classify)
  - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of identifying the type of Flower.
     
     **Model:** ANN
 
     **Libraries:** Tensorflow, Python, Pandas, Numpy
+    
+    ![image](https://user-images.githubusercontent.com/51862131/164912152-9ed60fc9-ea24-4ea7-bfa9-326d34b31148.png)
+    
         
 ### [Rock and Mine Detection](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Rock_and_Mine_prediction)
  - A Deep Learning Based Project that contain a Machine Learning model at backend which is capable of identifying the Rock or Mine.
