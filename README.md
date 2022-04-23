@@ -89,6 +89,9 @@ This Repository contain all my work associated to Machine Learning field.
     **Dataset:** IMDB
     
     **Libraries:** Tensorflow, Python, Pandas, Numpy, matplotlib
+    
+    ![image](https://user-images.githubusercontent.com/51862131/164942649-42d65e53-2616-47fa-ae13-316b831b4f8b.png)
+    
 ### [Newswires Classification](https://github.com/Muhammad-Usama-07/DeepLearning-Work/tree/main/All_Projects/Classifying_newswires)
  - A Deep Learning Based Project that contain a Deep Learning model which is capable to predict the type of news.
     
