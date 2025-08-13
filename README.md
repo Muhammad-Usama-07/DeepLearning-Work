@@ -108,5 +108,6 @@ Datasets: kaggle.com
 
 ### Todo
 
+- RNN
 - mobilenet
   
