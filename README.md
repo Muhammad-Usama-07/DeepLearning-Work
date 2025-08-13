@@ -107,3 +107,6 @@ Book: Deep Learning With Python by François Chollet
 Datasets: kaggle.com
 
 ### Todo
+
+- mobilenet
+  
