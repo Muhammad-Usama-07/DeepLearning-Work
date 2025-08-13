@@ -110,5 +110,6 @@ Datasets: kaggle.com
 
 - RNN
 - GRU
+- LSTM
 - mobilenet
   
