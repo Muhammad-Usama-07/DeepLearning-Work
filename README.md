@@ -109,5 +109,6 @@ Datasets: kaggle.com
 ### Todo
 
 - RNN
+- GRU
 - mobilenet
   
